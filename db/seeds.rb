@@ -7,6 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 #---
+#---
 # Excerpted from "Agile Web Development with Rails",
 # published by The Pragmatic Bookshelf.
 # Copyrights apply to this code. It may not be used to create training material, 
@@ -18,13 +19,13 @@
 Product.delete_all
 Product.create!(title: 'CoffeeScript',
   description: 
-    "
+    %{<p>
         CoffeeScript is JavaScript done right. It provides all of JavaScript's
-	functionality wrapped in a cleaner, more succinct syntax. In the first
-	book on this exciting new language, CoffeeScript guru Trevor Burnham
-	shows you how to hold onto all the power and flexibility of JavaScript
-	while writing clearer, cleaner, and safer code.
-      ",
+  functionality wrapped in a cleaner, more succinct syntax. In the first
+  book on this exciting new language, CoffeeScript guru Trevor Burnham
+  shows you how to hold onto all the power and flexibility of JavaScript
+  while writing clearer, cleaner, and safer code.
+      </p>},
   image_url:   'cs.jpg',    
   price: 36.00)
 # . . .
@@ -51,6 +52,3 @@ Product.create!(title: 'Rails Test Prescriptions',
       </p>},
   image_url: 'rtp.jpg',
   price: 34.95)
-
-Product.create!(title: 'book', description: 'A written source of information or entertainment',
-	image_url: 'book.jpg', price: 15.99)
