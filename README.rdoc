@@ -28,3 +28,5 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 Chapter 10 12/26/15
+
+2/13/2016 - Chapter 10 page 127 on the PDF file.  I left off on this part..."As always, your controllers are your first line of defense. Let’s go ahead and remove cart_id from the list of parameters that are permitted."...I still need to do this part.
